@@ -6,8 +6,8 @@ import clip
 from pytorchcv.model_provider import get_model as ptcv_get_model
 
 DATASET_ROOTS = {
-    "imagenet_train": "YOUR_PATH/CLS-LOC/train/",
-    "imagenet_val": "YOUR_PATH/ImageNet_val/",
+    "imagenet_train": "/home/ubuntu/file-system/ImageNetdata/imageDataTrain/",
+    "imagenet_val": "/home/ubuntu/file-system/ImageNetdata/imageDataValid/",
     "cub_train":"data/CUB/train",
     "cub_val":"data/CUB/test"
 }
