@@ -1,0 +1,11 @@
+{
+  "backbone": "resnet50",
+  "device": "cuda",
+  "batch_size": 1024,
+  "dataset": "imagenet",
+  "feature_layer": "layer4",
+  "activation_dir": "saved_activations",
+  "save_dir": "saved_models",
+  "lam": 0.0001,
+  "n_iters": 40
+}
